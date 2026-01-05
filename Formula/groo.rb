@@ -1,28 +1,28 @@
 class Groo < Formula
   desc "CLI tool for managing and running dev servers in monorepos"
   homepage "https://github.com/groo-dev/cli"
-  version "0.0.16"
+  version "0.0.17"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.16/groo_darwin_arm64.tar.gz"
-      sha256 "837ecba8165830d1f7c3dcd5c41622d16840ca40b2a14453afe3e2a72fa518d1"
+      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.17/groo_darwin_arm64.tar.gz"
+      sha256 "d4b6381872f11d8c6099e615c53d83ad301453196b52ad118310577ff1b9147c"
     end
     on_intel do
-      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.16/groo_darwin_amd64.tar.gz"
-      sha256 "741e71417c273666eee3e5d225ab5f198cbaed0a165d7d26da362e54530504fd"
+      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.17/groo_darwin_amd64.tar.gz"
+      sha256 "3bb4f83dc0686575bbc2367156ad80492b43f7860c13a92bc8f453b80eab56a7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.16/groo_linux_arm64.tar.gz"
-      sha256 "d4dc82b220eb01221d226b866cbc5c2662f7000218eae22b714a850449c13669"
+      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.17/groo_linux_arm64.tar.gz"
+      sha256 "0d353501fde42f7b1a0ab9d2f52bcb5ca57605e08fddda84824c7e9af521bca2"
     end
     on_intel do
-      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.16/groo_linux_amd64.tar.gz"
-      sha256 "8380199151d04c5d23720750273c4effd880be4577ed5304f120e79b6a19a8c9"
+      url "https://github.com/groo-dev/cli/releases/download/groo-v0.0.17/groo_linux_amd64.tar.gz"
+      sha256 "14235f5e2b87d3bcd63b0a31c44bee0df61c2f09dbb7c1341ddfe42b87cb8ac0"
     end
   end
 
