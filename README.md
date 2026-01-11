@@ -10,34 +10,37 @@ brew tap groo-dev/tap
 
 ## Available Formulas (CLI Tools)
 
-| Formula | Description |
-|---------|-------------|
-| [groo](https://github.com/groo-dev/cli) | CLI tool for managing and running dev servers in monorepos |
-| [cl](https://github.com/groo-dev/cl-wrangler) | Switch between multiple Cloudflare/Wrangler accounts |
+### groo
 
-### Install groo
+CLI tool for managing and running dev servers in monorepos. Provides interactive service selection, parallel builds, and automatic project detection.
 
 ```bash
 brew install groo-dev/tap/groo
 ```
 
-### Install cl
+[View on GitHub](https://github.com/groo-dev/cli)
+
+### cl
+
+Switch between multiple Cloudflare/Wrangler accounts. Manages credentials and configurations for teams working across multiple Cloudflare accounts.
 
 ```bash
 brew install groo-dev/tap/cl
 ```
 
+[View on GitHub](https://github.com/groo-dev/cl-wrangler)
+
 ## Available Casks (macOS Apps)
 
-| Cask | Description |
-|------|-------------|
-| [groo-mac](https://github.com/groo-dev/macos) | Menu bar clipboard manager and quick capture tool |
+### groo-mac
 
-### Install Groo (macOS App)
+Menu bar app for quick capture and clipboard management. Add text, files, and images from anywhere - access them across devices via the Groo Pad sync service.
 
 ```bash
 brew install --cask groo-dev/tap/groo-mac
 ```
+
+[View on GitHub](https://github.com/groo-dev/macos)
 
 ## Updating
 
