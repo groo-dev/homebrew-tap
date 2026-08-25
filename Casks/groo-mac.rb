@@ -1,6 +1,6 @@
 cask "groo-mac" do
-  version "0.0.11"
-  sha256 "4a62452229ef3c423a85c325e865337ee443b34acb277f7d2284b839256b96b1"
+  version "0.0.12"
+  sha256 "293a0243fa49b19f2e3cd462a18db7985c72053282b7e90a91f35bbe669262d6"
 
   url "https://github.com/groo-dev/macos/releases/download/v#{version}/Groo-#{version}.dmg"
   name "Groo"
